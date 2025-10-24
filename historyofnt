@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>history of nt</title>
+<style>
+:root{--accent:#1e88e5;--bg:#ffffff;--muted:#6b7280;--max:900px}
+*{box-sizing:border-box}
+body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#111; margin:0; padding:36px; display:flex; justify-content:center}
+.wrap{width:100%; max-width:var(--max)}
+header{margin-bottom:28px}
+h1{font-size:28px; margin:0 0 6px; text-transform: lowercase;}
+.tagline{color:var(--muted); font-style:italic; text-transform: lowercase;}
+
+.timeline{position:relative; padding-left:18px; border-left:1px solid #eee}
+.item{display:flex; justify-content:space-between; align-items:flex-start; padding:18px 18px; gap:12px}
+.item + .item{border-top:1px dashed #f2f4f7}
+.content{max-width:68%}
+.title{font-weight:600; margin:0 0 6px; text-transform: lowercase;}
+.sub{color:var(--muted); margin:0; text-transform: lowercase;}
+.date{color:var(--accent); font-weight:600; white-space:nowrap; text-transform: lowercase;}
+
+@media (max-width:720px){
+.item{flex-direction:column; align-items:flex-start}
+.content{max-width:100%}
+.date{margin-top:8px}
+}
+
+.item{opacity:0; transform:translateY(8px); animation:reveal 420ms ease forwards}
+.item:nth-child(1){animation-delay:0s}
+.item:nth-child(2){animation-delay:0.06s}
+.item:nth-child(3){animation-delay:0.12s}
+.item:nth-child(4){animation-delay:0.18s}
+.item:nth-child(5){animation-delay:0.24s}
+@keyframes reveal{to{opacity:1; transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>the untold history of niraan thomas — still being written.</h1>
+<div class="tagline">please dive right in</div>
+</header>
+
+<main class="timeline">
+
+<div class="item">
+<div class="content">
+<div class="title">jp morgan</div>
+<p class="sub">operations analyst navigating the thrilling world of aml and keeping the corporate and investment banking division squeaky clean. mastered due diligence like a compliance ninja. turns out, spotting the small stuff makes a big difference!!!</p>
+</div>
+<div class="date">oct 2023 – sep 2025</div>
+</div>
+
+<div class="item">
+<div class="content">
+<div class="title">fmva</div>
+<p class="sub">completed the financial modelling & valuation analyst (fmva®) certification covering all aspects of financial modelling, analysis and pitchbook presentations.</p>
+</div>
+<div class="date">nov 2023 – jan 2024</div>
+</div>
+
+<div class="item">
+<div class="content">
+<div class="title">ernst and young</div>
+<p class="sub">turned a 3-month ey data & analytics internship into a mortgage modeling sprint. curiosity and dedication earned me an extra month — apparently senior partners notice that stuff.</p>
+</div>
+<div class="date">june 2022 – sep 2022</div>
+</div>
+
+<div class="item">
+<div class="content">
+<div class="title">king's college london</div>
+<p class="sub">bsc accounting & finance - 2:1 achieved. gained more than grades — insight, connections, and plenty of late-night discussions.</p>
+</div>
+<div class="date">sep 2020 – july 2023</div>
+</div>
+
+<div class="item">
+<div class="content">
+<div class="title">fuel a dream</div>
+<p class="sub">launched a crowdfunding campaign to finance cataract surgeries for underprivileged individuals in a village near bangalore. learned the ropes of debt financing and fundraising.</p>
+</div>
+<div class="date">july 2019</div>
+</div>
+
+</main>
+</div>
+</body>
+</html>
